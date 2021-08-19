@@ -1,6 +1,6 @@
 # Calculator
 
-A basic Calculator Made with HTML, CSS and JavaScript
+A basic calculator made with HTML, CSS and JavaScript
 
 
 ## Demo
