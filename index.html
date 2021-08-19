@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link
+   rel="apple-touch-icon"
+   sizes="180x180"
+   href="./media/fav/apple-touch-icon.png"
+  />
+  <link
+   rel="icon"
+   type="image/png"
+   sizes="32x32"
+   href="./media/fav/favicon-32x32.png"
+  />
+  <link
+   rel="icon"
+   type="image/png"
+   sizes="16x16"
+   href="./media/fav/favicon-16x16.png"
+  />
+  <link rel="manifest" href="./media/fav/site.webmanifest" />
+  <link rel="stylesheet" href="./style.css" />
+  <title>Calculator</title>
+ </head>
+ <body>
+  <header>
+   <div class="logo">
+    <h1>Calculator</h1>
+   </div>
+  </header>
+  <!-- calculator container -->
+  <div class="wrapper">
+   <div class="cal-cont">
+    <!-- display part -->
+    <div class="display">
+     <input
+      type="text"
+      name="display"
+      id="display"
+      value=""
+      placeholder="Display"
+      autocomplete="off"
+      readonly
+     />
+     <input type="button" value="C" id="del" />
+    </div>
+
+    <!-- numbers -->
+    <div class="line1 row">
+     <input type="button" value="7" id="elements" class="seven" />
+     <input type="button" value="8" id="elements" class="eight" />
+     <input type="button" value="9" id="elements" class="nine" />
+     <input type="button" value="+" id="elements" class="plus" />
+    </div>
+    <div class="line2 row">
+     <input type="button" value="4" id="elements" class="four" />
+     <input type="button" value="5" id="elements" class="five" />
+     <input type="button" value="6" id="elements" class="six" />
+     <input type="button" value="-" id="elements" class="minus" />
+    </div>
+    <div class="line3 row">
+     <input type="button" value="1" id="elements" class="four" />
+     <input type="button" value="2" id="elements" class="five" />
+     <input type="button" value="3" id="elements" class="six" />
+     <input type="button" value="*" id="elements" class="multiply" />
+    </div>
+    <div class="line4 row">
+     <input type="button" value="/" id="elements" class="divide" />
+     <input type="button" value="0" id="elements" class="zero" />
+     <input type="button" value="." id="elements" class="dot" />
+     <input type="button" value="=" class="equals" id="equal" />
+    </div>
+   </div>
+  </div>
+
+  <footer>
+   <p>Made with <i class="fas fa-heart"></i> by <a href="#">Ayush Rameja</a></p>
+   <a href="#"><i class="fab fa-github"></i> Source</a>
+  </footer>
+
+  <script src="./app.js"></script>
+  <!-- Fontawesome Script -->
+  <script
+   src="https://kit.fontawesome.com/f28b055962.js"
+   crossorigin="anonymous"
+  ></script>
+ </body>
+</html>
